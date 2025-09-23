@@ -4,9 +4,9 @@
 # Prometheus
 
 <h3>Projeto de Conclusão de UC do Senac</h3>
-    <P>Este projeto consiste na criação de um robo que desviara obstaculos e com inteligencia de sair de labirintos, </P>
+    <P>Este projeto é sobre a criação de um robô capaz de desviar de obstáculos e encontrar o caminho certo para sair de labirintos, usando inteligência para tomar decisões durante o percurso.</P>
  <hr>
- <h3>Autores</h3>
+ ### Autores
  <ul>
   <li>Felippe Camargo</li>
   <li>Reginaldo Soares</li>
