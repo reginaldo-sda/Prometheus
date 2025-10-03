@@ -14,11 +14,25 @@
  </ul>
   <h3>Componentes</h3>
   <ul>
-      <li>Arduino Uno</li>  
-    <li>Sensor Ultrassonico HC-SR04</li>  
-     <li>2 Motores DC + Rodas</li>  
-<li>Chassi, Suportes, fios e jumpers</li>
-  <h3>Funcionalidade</h3>
+    <li> chassis</li>
+    <li> 6 pilhas de 1.5V</li> 
+    <li> Motores</li>
+    <li> mini arduino uno</li>
+    <li> Mini Protoboard</li>
+     <li>Roda boba</li>
+      <li>encaixe de pilhas</li>
+       <li>sonar ultrassônico HC-SR04</li>
+       <li>Manta Anti-estatica</li>
+       <li>L293D</li>
+       <li>Pneu de brinquedo</li>
+       <li>Suporte de engrenagem</li>
+      <li>fita dupla-face</li>
+    <li>multímetro (auxilio na montagem)</li>
+    </li>
+
+        
+<h3>Funcionalidade</h3>
+    
   <ul>
       <li>Desvio automático de obstáculos (HC-SR04)</li>  
     <li>Estratégia básica para resolução de labirintos (turns + tomada de decisão)</li>  
@@ -38,10 +52,11 @@
   <li>Ligue o driver ao Arduino</li>
   <li>Conecte o HC-SR04: Vcc -> 5V, GND -> GND, TRIG -> pino definido, ECHO -> pino definido.</li>
   <li>Insira batéria / alimentação adequada ao driver (não alimente motores pelo 5V do Arduino)</li>  
+    <li>Voltagem minima das pilhas deve ser de 8V</li>
 </ul>
   <h3>Preparando o Ambiente</h3>
   <ul>
      <li>Abra o Arduino IDE (ou PlatformIO).</li>
      <li>Instalar a Biblioteca Distance.Sensor by Tin Dao</li>
   </ul>
-  <h3>Sketch exemplo</h3>
+
