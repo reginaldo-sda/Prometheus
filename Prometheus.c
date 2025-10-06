@@ -41,18 +41,34 @@ void loop() {
   Serial.print(distancia);
   Serial.println("cm");
 
-  // andarPraFrente();
-
   if(distancia == -2) {
     parar();
-  } else if (distancia > 12) {
+  } else if (distancia > 14) {
     andarPraFrente();
-  } else {
+
+  } else if(distancia <= 14 && girou) {
     parar();
     delay(1100);
 
     andarPraEsquerda();
-    delay(350);
+    delay(465);
+
+    parar();
+    delay(200);
+
+    girou = false;
+
+  } else if(distancia <= 14 && !girou) {
+    parar();
+    delay(1100);
+
+    andarPraDireita();
+    delay(273);
+
+    parar();
+    delay(200);
+
+    girou = true;
   }
 }
 
@@ -60,7 +76,7 @@ void andarPraFrente() {
   analogWrite(5, 120);  // andar para trás
   analogWrite(6, 0);    // andar para frente
 
-  analogWrite(9, 120);  // andar para frente
+  analogWrite(9, 116);  // andar para frente
   analogWrite(10, 0);   // andar para trás
 }
 
