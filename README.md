@@ -14,7 +14,7 @@
  </ul>
   <h3>Componentes</h3>
   <ul>
-    <li> Chassis</li>
+    <li> chassis</li>
     <li> 6 pilhas de 1.5V</li> 
     <li> Motores</li>
     <li> mini arduino uno</li>
